@@ -10,7 +10,7 @@ class NeuralNetwork(nn.Module):
         :param units_fc1 - units_fc4: Number of units for each layer
         :param dropout_rate_fc: Percentage of dropout rate for every FC layer.
         """
-        super(Net, self).__init__()
+        super(NeuralNetwork, self).__init__()
         self.input_dim = input_dim
         self.batch_size = batch_size
         self.dropout = nn.Dropout(p=dropout_rate_fc)

@@ -37,10 +37,9 @@ class Trainer:
         """
         for batch_number, (input_data, target_data) in enumerate(data_loader_training):
             self.model.train()
-            hidden = self.model.init_hidden()
             self.optimizer.zero_grad()
 
-            output = self.model(input_data, hidden)
+            output = self.model(input_data)
             loss = self.criterion(output, target_data)
             self.epoch_training_loss.append(loss.item())
 
@@ -62,8 +61,7 @@ class Trainer:
             with torch.no_grad():
                 input_data, target_data = data
                 self.model.eval()
-                hidden = self.model.init_hidden()
-                output = self.model(input_data, hidden)
+                output = self.model(input_data)
                 loss = self.criterion(output, target_data)
                 self.epoch_validation_loss.append(loss.item())
 

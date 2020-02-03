@@ -1,8 +1,7 @@
 import pandas as pd
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import DataLoader
 from sklearn.preprocessing import StandardScaler
 import numpy as np
-from keras.preprocessing.sequence import TimeseriesGenerator
 import torch
 
 
@@ -10,9 +9,9 @@ class DataPreperator:
     """
     This class provides methods for pre-processing the data
     """
-    def __init__(self, dataset, ignored_features, stake_training_data,
+    def __init__(self, pandas_file, ignored_features, stake_training_data,
                  features_not_to_scale):
-        self.dataset = dataset
+        self.dataset = pandas_file
         self.scaler = StandardScaler()
         self.ignored_features = ignored_features
         self.features_not_to_scale = features_not_to_scale
