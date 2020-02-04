@@ -1,0 +1,24 @@
+Architecture and Training configuration:
+Batch size: 8
+Input size: 125
+Number of Layers: 3
+Units Layer 1: 140
+Units Layer 2: 70
+Units Layer 3: 10
+Dropout rate fc NN: 0.2
+Cycling LR mode: triangular
+Cycling LR base LR: 0.001
+Cycling LR max LR: 0.05
+- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
+Training phase is started
+-------- epoch_no. 0 finished with training loss 0.09116388798866397--------
+-------- epoch_no. 1 finished with training loss 0.07798686185061059--------
+-------- epoch_no. 2 finished with training loss 0.07035332615026291--------
+-------- epoch_no. 3 finished with training loss 0.06539259783737453--------
+-------- epoch_no. 4 finished with training loss 0.06387199650964523--------
+-------- epoch_no. 5 finished with training loss 0.06371206407049913--------
+-------- epoch_no. 6 finished with training loss 0.06273969882362894--------
+-------- epoch_no. 7 finished with training loss 0.06119578859028655--------
+-------- epoch_no. 8 finished with training loss 0.06046609678159605--------
+-------- epoch_no. 9 finished with training loss 0.06090156866868025--------
+Training phase is finished
