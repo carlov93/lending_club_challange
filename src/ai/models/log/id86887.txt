@@ -11,3 +11,4 @@ Cycling LR base LR: 0.001
 Cycling LR max LR: 0.05
 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 Training phase is started
+-------- epoch_no. 0 finished with training loss 0.06743355770884026--------

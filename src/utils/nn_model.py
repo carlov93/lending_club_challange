@@ -35,4 +35,5 @@ class NeuralNetwork(nn.Module):
         x = self.dropout(x)
         x = torch.relu(x)
         x = self.fc4(x)
+        x = torch.sigmoid(x)
         return x

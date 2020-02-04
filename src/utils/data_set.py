@@ -10,7 +10,7 @@ class DataSetLoans(Dataset):
     override the following methods.
     """
     def __init__(self, X, y):
-        self.y = [np.array(i) for i in y]
+        self.y = y
         self.X = X
 
     def __getitem__(self, index):
