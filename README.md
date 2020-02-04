@@ -1,6 +1,11 @@
-# Setup Virtual Environment
-Es ist wichtig, dass ein python file mit dem Namen "sitecustomize.py" erstellt wird, der folgenden Inhalt hat. 
-Die Datei muss bezüglich der Pfade angepasst werden und dann zu den Ordner mit den externen Libraries hinzugefügt werden. 
+# Project Setupt
+## Virtual Environment
+Create a virtual environment and install packages listed in requirements.txt
+
+## Incorporated own modules to virtual environment
+It is important that a python file named "sitecustomize.py" is created with the following content. 
+The file must be customized in terms of paths and then added to the folders containing the external libraries. 
+
 
 import os
 import sys

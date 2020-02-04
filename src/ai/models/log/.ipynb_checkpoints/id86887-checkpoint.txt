@@ -16,5 +16,4 @@ Training phase is started
 -------- epoch_no. 2 finished with training loss 0.06731721493598695--------
 -------- epoch_no. 3 finished with training loss 0.06364351082360824--------
 -------- epoch_no. 4 finished with training loss 0.062359258374776065--------
-Early stopping on epoch 14
 Training phase is finished

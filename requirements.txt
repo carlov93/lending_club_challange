@@ -6,3 +6,4 @@ numpy==1.18.1
 pytorch
 scipy
 pydotplus
+matplotlib
